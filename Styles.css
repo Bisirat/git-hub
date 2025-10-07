@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ /* div {  */
+            /*color*/
+            /* color:cadetblue; */
+            /* background-color: rgb(90, 84, 84); */
+          
+            /*width and height */
+            /* width: 100%; */
+          /* max-width: 100vh; */
+          /* height:30%; */
+          /*but sometimes we set height properties- using vh (viewport height) and vw (viewpoint width) .. especially for landing pages*/
+          /* height: 100vh; */
+          /* we dont set height property as much as possible */
+
+
+           /* fonts */
+           /* font-size: 30px; */
+           /* font-weight: bold; */
+           /* font-family: Inter, sans-serif;  */
+           /* sans-serif font as a backup */
+           /* we imported inter font from google fonts and it is located at the top */
+
+
+           /* border */
+           /* border-width: 10px; */
+           /* border-style: solid; */
+           /* border-color: chartreuse;  */
+
+           /* we could also add borders using 1 line 
+           border: 10px solid red; */ 
+
+           /* .paragraph-1 {    */
+            /* color: rgb(239, 53, 53); */
+            /* font-size: 20px; */
+            /* font-weight: bold; */
+            /* font-family: Inter; */
+           /* } */
+           /* .paragraph-2 { */
+            /* color: rgb(16, 119, 237); */
+            /* font-size: 15px; */
+            /* font-weight: bold; */
+            /* font-family: Inter; */
+           /* } */
+           /* #first-paragraph { */
+            /* color: rgb(16, 237, 119); */
+            /* font-size: 10px; */
+            /* font-weight: bold; */
+            /* font-family: Inter; */
+           /* } */
+
+/* } */
+
+/* .box { */
+  /* width: 200px; */
+  /* border: 5px, red solid; */
+/* padding: 20px; */
+/* margin: 20px; */
+/* box-sizing: border-box; */
+/* } */
+/* .title{ */
+  /* color: blue; */
+  /* background-color: aquamarine; */
+  /* position: absolute; */
+  /* width: 100vw; */
+  /* top: 25px; */
+  /* left: 245px; */
+  
+/* } */
+/* .title{
+  color: rgb(0, 104, 168);
+  font-size: 60px;
+}
+.paragraph{
+  color: black;
+  font-size: 25px;
+}
+
+@media (max-width: 600px){
+  .title{
+    font-size: 30px;
+  }
+  .paragraph{
+    font-size: 15px;
+  }
+} */
+
+p::after{ 
+  content: "is my name.";
+}
+button{
+  transition: 300ms;
+  color: rgb(255, 255, 255);
+  background-color: rgb(65, 150, 240);
+  border: none;
+}
+button:hover{
+  opacity:60% ;;
+  
+}
+p { animation: pointup 1000ms infinite alternate-reverse;}
+@keyframes pointup{
+  0%{
+    transform: translateY(0px);
+  }
+  100%
+  {
+    transform: translateY(10px);
+  }
+
+}
